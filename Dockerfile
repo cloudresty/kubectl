@@ -33,6 +33,7 @@ RUN     apt-get install -y \
         git \
         gnupg \
         gnupg2 \
+        jq \
         vim \
         zsh
 
