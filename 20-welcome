@@ -1,0 +1,33 @@
+#!/bin/bash
+
+clear
+
+# Welcome message
+WELCOME_KUBECTL="
+  _  __     _           _____ _______ _
+ | |/ /    | |         / ____|__   __| |
+ | ' /_   _| |__   ___| |       | |  | |
+ |  <| | | | '_ \\ / _ \\ |       | |  | |
+ | . \\ |_| | |_) |  __/ |____   | |  | |____
+ |_|\\_\\__,_|_.__/ \\___|\\_____|  |_|  |______|
+
+---
+
+Welcome to KubeCTL, a Debian-based Docker image from
+Cloudresty.com containing 'kubectl' CLI utility for
+Kubernetes cluster management.
+
+DISCLAIMER
+KubeCTL is not affiliated with Kubernetes or any of its
+projects. KubeCTL uses the official 'kubectl' binary
+from the Kubernetes project and packages it in a Debian
+Docker image for easy use.
+
+For more details about KubeCTL please check the README file
+available at https://github.com/cloudresty/kubectl
+
+---
+"
+
+# Print welcome message
+echo -e "$WELCOME_KUBECTL"
