@@ -3,7 +3,7 @@
 #
 
 # Base Image
-FROM    debian:bookworm-slim
+FROM    debian:12.5-slim
 
 # Image details
 LABEL   org.opencontainers.image.authors="Cloudresty" \
